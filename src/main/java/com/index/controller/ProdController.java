@@ -19,6 +19,9 @@ public class ProdController {
 	ProductServiceImpl prodService;
 	
 
+      static{
+		System.out.println("After Changes  ");
+	}
  
 	static{
 		System.out.println("Inside Controller ");
