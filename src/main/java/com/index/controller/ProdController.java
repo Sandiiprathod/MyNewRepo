@@ -18,6 +18,8 @@ public class ProdController {
 	@Autowired
 	ProductServiceImpl prodService;
 	
+
+ 
 	static{
 		System.out.println("Inside Controller ");
 	}
